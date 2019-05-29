@@ -40,3 +40,8 @@ img {
   
   background-color: rgba(0,82,150,1.0);
 }
+
+.site-header__logo {
+  display: block;
+  margin: 0 auto;
+}
