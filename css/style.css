@@ -83,6 +83,9 @@ img {
   min-width: 320px;
   max-width: 480px;
   margin: 0 auto;
+  min-height: 51px;
+  
+  background-color: rgba(130,210,255,1.0);
 }
 
 .main-nav__list {
