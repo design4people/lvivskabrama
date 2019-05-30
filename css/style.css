@@ -77,3 +77,9 @@ img {
   width: 200px;
   height: 129px;
 }
+
+.main-nav {
+  min-width: 320px;
+  max-width: 480px;
+  margin: 0 auto;
+}
