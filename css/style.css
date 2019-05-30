@@ -43,6 +43,7 @@ img {
   height: auto;
 }
 
+/* Cпеціальні глобальні стилі "visually-hidden" для доступного приховування елементів */
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
 
