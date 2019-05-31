@@ -195,3 +195,24 @@ img {
   background-color: rgba(50,100,150,1.0);
   border-top-color: rgba(50,100,150,1.0);
 }
+
+.user-list {
+  font-weight: bold;
+}
+
+.user-list__item a {
+  position: relative;
+  
+  display: block;
+  padding: 12px 20px;
+  padding-left: 50px;
+  
+  font-size: 18px;
+  line-height: 24px;
+  
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+  background-color: rgba(0,110,210,1.0);
+}
