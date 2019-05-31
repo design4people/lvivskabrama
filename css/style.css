@@ -200,7 +200,7 @@ img {
   font-weight: bold;
 }
 
-.user-list__item a {
+.user-list a {
   position: relative;
   
   display: block;
