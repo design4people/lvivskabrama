@@ -216,3 +216,18 @@ img {
   
   background-color: rgba(0,110,210,1.0);
 }
+
+.user-list__login-icon {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  
+  width: 16px;
+  height: 16px;
+  
+  opacity: 0.5;
+}
+
+.user-list__login-icon polygon {
+  fill: #ffffff;
+}
