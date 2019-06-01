@@ -164,6 +164,11 @@ img {
   list-style: none;
 }
 
+/* Стилі тільки для екранів менше 767px */
+@media (max-width: 767px) {
+
+}
+
 .site-list {
   font-weight: bold;
 }
