@@ -166,7 +166,13 @@ img {
 
 /* Стилі тільки для екранів менше 767px */
 @media (max-width: 767px) {
-
+  .main-nav--closed .site-list__item {
+    display: none;
+  }
+  
+  .main-nav--closed .user-list__item {
+    display: none;
+  }
 }
 
 .site-list {
