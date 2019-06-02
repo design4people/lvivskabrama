@@ -183,6 +183,17 @@ img {
   .main-nav--closed .user-list__item {
     display: none;
   }
+  
+  .main-nav--opened .main-nav__wrapper {
+    position: absolute;
+    top: 0;
+    left: 70px;
+    right: 0;
+    
+    z-index: 10;
+    min-height: 70vh;
+    background-color: rgba(0,100,200,1.0);
+  }
 }
 
 .site-list {
