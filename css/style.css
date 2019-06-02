@@ -212,6 +212,27 @@ img {
   .main-nav--nojs .main-nav__toggle {
     display: none;
   }
+  
+  /* Повертаю блоку навігації первинне положення і вид */
+  .main-nav--nojs .main-nav__wrapper {
+    position: static;
+    min-height: 0;
+  }
+  
+  .main-nav--nojs .site-list__item {
+    display: block;
+  }
+  
+  .main-nav--nojs .site-list__item--active a {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    text-align: left;
+  }
+  
+  .main-nav--nojs .user-list__item {
+    display: block;
+  }
 }
 
 .site-list {
