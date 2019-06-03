@@ -418,4 +418,20 @@ img {
   top: 16px;
   left: 12px;
   }
+  
+  .user-list__login:hover .user-list__login-icon {
+    opacity: 1;
+  }
+  
+  .user-list__login:hover .user-list__login-icon polygon {
+    fill: rgba(0,200,255,1.0);
+  }
+  
+  .user-list__login:active .user-list__login-icon {
+    opacity: 0.3;
+  }
+
+  .user-list__login:active .user-list__login-icon polygon {
+    fill: #ffffff;
+  }
 }
