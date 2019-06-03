@@ -299,8 +299,37 @@ img {
     justify-content: flex-start;
     flex-wrap: wrap;
     
-    /* width: 570px; */
-    flex-basis: 570px;
+    /* width: 580px; */
+    flex-basis: 580px;
+  }
+  
+  .site-list__item {
+    margin-right: 10px;
+  }
+  
+  .site-list__item:last-chield {
+    margin-right: 0;
+  }
+  
+  .site-list a {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    
+    background: none;
+    border: none;
+  }
+  
+  .site-list a[href]:hover {
+    color: rgba(255,255,255,0.5);
+    background-color: rgba(0,100,200,1.0);
+  }
+  
+  .site-list a[href]:active {
+    color: #ffffff;
+    background-color: rgba(0,100,200,0.5);
+    opacity: 0.8;
   }
 }
 
