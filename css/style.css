@@ -241,6 +241,26 @@ img {
   }
 }
 
+@media (min-width: 768px) {
+  .main-nav {
+    width: auto;
+    max-width: 100%;
+    margin: 0;
+  }
+  
+  .main-nav__toggle {
+    display: none;
+  }
+  
+  /* Обгортка списків меню сайту для планшетного варіанту матиме властивості флекс-контейнера */
+  .main-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+    margin: 0 auto;
+  }
+}
+
 .site-list {
   font-weight: bold;
 }
