@@ -293,6 +293,12 @@ img {
   border-top-color: rgba(50,100,150,1.0);
 }
 
+@media (min-width: 768px) {
+  .site-list {
+    width: 570px;
+  }
+}
+
 .user-list {
   font-weight: bold;
 }
@@ -339,4 +345,10 @@ img {
 
 .user-list__login-icon polygon {
   fill: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .user-list {
+    width: 60px;
+  }
 }
