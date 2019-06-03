@@ -295,7 +295,12 @@ img {
 
 @media (min-width: 768px) {
   .site-list {
-    width: 570px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+    /* width: 570px; */
+    flex-basis: 570px;
   }
 }
 
