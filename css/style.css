@@ -311,6 +311,24 @@ img {
     margin-right: 0;
   }
   
+  .site-list__item--active {
+    position: relative;
+  }
+  
+  .site-list__item--active::after {
+    content: "";
+    position: absolute;
+    /* Взаємозамінність властивостей width: 100%; і позиціонування left: 0;  right: 0; */
+    left: 0;
+    /* right: 0;  */
+    bottom: -3px;
+    
+    width: 100%;
+    height: 5px;
+    
+    background-color: rgba(255,255,100,1.0);
+  }
+  
   .site-list a {
     padding-left: 0;
     padding-right: 0;
