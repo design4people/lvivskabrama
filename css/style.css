@@ -403,4 +403,19 @@ img {
   .user-list {
     width: 60px;
   }
+  
+  .user-list .user-list__login {
+    width: 60px;
+    height: 50px;
+    font-size: 0;
+    
+    padding: 0;
+    
+    background: none;
+  }
+  
+  .user-list__login-icon {
+  top: 16px;
+  left: 12px;
+  }
 }
